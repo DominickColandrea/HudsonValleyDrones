@@ -49,19 +49,30 @@ form {
 /* xs < 768 */
 @media screen and (max-width: 767px) {
   body {
-    font-size: 0.9em; } }
+    font-size: 0.9em; }
+    body .smallFont {
+      font-size: 1.5em; } }
 /* sm */
 @media screen and (min-width: 768px) {
   body {
-    font-size: 1em; } }
+    font-size: 1em; }
+
+  .smallFont {
+    font-size: 2em; } }
 /* md */
 @media screen and (min-width: 992px) {
   body {
-    font-size: 1.2em; } }
+    font-size: 1.2em; }
+
+  .smallFont {
+    font-size: 2.4em; } }
 /* lg */
 @media screen and (min-width: 1200px) {
   body {
-    font-size: 1.3em; } }
+    font-size: 1.3em; }
+
+  .smallFont {
+    font-size: 2.9em; } }
 .lead {
   font-size: 27px; }
 
