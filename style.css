@@ -62,5 +62,7 @@ form {
 @media screen and (min-width: 1200px) {
   body {
     font-size: 1.3em; } }
+.lead {
+  font-size: 27px; }
 
 /*# sourceMappingURL=style.css.map */
