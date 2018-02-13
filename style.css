@@ -48,6 +48,9 @@ form {
 
 /* xs < 768 */
 @media screen and (max-width: 767px) {
+  .pad {
+    padding: 10px; }
+
   body {
     font-size: 0.9em; }
     body .smallFont {
