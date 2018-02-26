@@ -46,6 +46,11 @@ form {
 #gotchaHide {
   display: none; }
 
+.flex {
+  display: flex;
+  flexflow: column;
+  justify-content: center; }
+
 /* xs < 768 */
 @media screen and (max-width: 767px) {
   .pad {
