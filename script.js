@@ -1,5 +1,5 @@
 $(function() {
-	let loc ="home";
+	let loc;
 
 	function home(){
 		$(".link").removeClass("active");
