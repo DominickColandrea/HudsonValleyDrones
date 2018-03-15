@@ -146,7 +146,7 @@ $(function() {
 	}) //end contact click
 	console.log(location.href);
 
-	if (location.href == "hudsonvalleydrones.biz" || location.href == "hudsonvalleydrones.biz/#home") {
+	if (location.href == "hudsonvalleydrones.biz/" || location.href == "hudsonvalleydrones.biz/#home") {
 		home();
 	}
 	else if (location.href == "hudsonvalleydrones.biz/#drones") {
