@@ -146,7 +146,10 @@ $(function() {
 	}) //end contact click
 	console.log(location.href);
 
-	if (location.href == "hudsonvalleydrones.biz/#drones") {
+	if (location.href == "hudsonvalleydrones.biz" || location.href == "hudsonvalleydrones.biz/#home") {
+		home();
+	}
+	else if (location.href == "hudsonvalleydrones.biz/#drones") {
 		drones();
 	}
 	else if (location.href == "hudsonvalleydrones.biz/#pilots") {
@@ -169,9 +172,6 @@ $(function() {
 	}
 	else if (location.href == "hudsonvalleydrones.biz/#contact") {
 		contact();
-	}
-	else {
-		home();
 	}
 
 	$(document).on('click', function(event) {
