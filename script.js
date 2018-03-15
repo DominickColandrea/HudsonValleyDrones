@@ -173,6 +173,9 @@ $(function() {
 	else if (location.href == "hudsonvalleydrones.biz/#contact") {
 		contact();
 	}
+	else{
+		home();
+	}
 
 	$(document).on('click', function(event) {
 		var $clickedOn = $(event.target),
