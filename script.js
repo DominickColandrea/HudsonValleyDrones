@@ -146,31 +146,31 @@ $(function() {
 	}) //end contact click
 	console.log(location.href);
 
-	if (location.href == "http://hudsonvalleydrones.biz" || location.href == "http://hudsonvalleydrones.biz/#home") {
+	if (location.href == "hudsonvalleydrones.biz" || location.href == "hudsonvalleydrones.biz/#home") {
 		home();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#drones") {
+	else if (location.href == "hudsonvalleydrones.biz/#drones") {
 		drones();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#pilots") {
+	else if (location.href == "hudsonvalleydrones.biz/#pilots") {
 		pilots();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#licenses") {
+	else if (location.href == "hudsonvalleydrones.biz/#licenses") {
 		licenses();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#eventPhotos") {
+	else if (location.href == "hudsonvalleydrones.biz/#eventPhotos") {
 		eventPhotos();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#realEstatePhotos") {
+	else if (location.href == "hudsonvalleydrones.biz/#realEstatePhotos") {
 		realEstatePhotos();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#weddingPhotos") {
+	else if (location.href == "hudsonvalleydrones.biz/#weddingPhotos") {
 		weddingPhotos();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#aerial") {
+	else if (location.href == "hudsonvalleydrones.biz/#aerial") {
 		aerialInspections();
 	}
-	else if (location.href == "http://hudsonvalleydrones.biz/#contact") {
+	else if (location.href == "hudsonvalleydrones.biz/#contact") {
 		contact();
 	}
 
