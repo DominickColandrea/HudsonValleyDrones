@@ -144,6 +144,7 @@ $(function() {
 			contact();
 		} //end if
 	}) //end contact click
+	console.log(window.location.href);
 
 	if (window.location.href == "http://hudsonvalleydrones.biz" || window.location.href == "http://hudsonvalleydrones.biz/#home") {
 		home();
